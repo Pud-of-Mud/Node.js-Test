@@ -1,0 +1,22 @@
+body {
+  background-color: #595959;
+}
+div {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin: 5px;
+  width: 70%;
+  background-color: #141414;
+}
+h1 {
+  font-size: 100px;
+  color: white; 
+}
+h2 {
+  color: white; 
+}
+p {
+  color: white;
+}
