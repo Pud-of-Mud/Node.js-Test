@@ -29,7 +29,7 @@ This requires downloading the code from the repsitory.
 2) Set up the port you want to host on; default is **8080**
 3) Run ``` npm install ``` within the console/terminal to install the dependances.
 4) Run ``` node index.js ``` within the console/terminal.
-5) You can find the website hosted on [localhost:8080](localhost:8080)
+5) You can find the website hosted on [localhost:8080](https://localhost:8080)
 
 ## Credits
 * Made by @Pud-of-Mud
