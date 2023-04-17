@@ -1,9 +1,24 @@
 //Function that returns the time 
 exports.dateAndTime = function () {
-  //Gets date, than converts to the following
-  //format, than places into currentDate varable.
+  return Date();
+}
+
+exports.isItYourBirthday = function () {
+  //Sets current date to varable
+  currentMonth = new Date.getDate();
+  currentDay = new Date.getDay();
+
+  //Makes birthday varable
+  birthdayMonth = 4;
+  birthdayDay = 17;
+
+  //Checks if birthday is the same as formatDate
+  if (birthdayMonth == currentMonth && birthdayDay == currentDay) {
+    return true; 
+  } else {
+    return false; 
+  }
   
-  return new Date.toLocaleDateString(); // 5/12/2020
 }
 
 //Function that uses dateAndTime() function to check 

@@ -16,8 +16,13 @@ http.createServer(function (req, res) {
     res.write(data);
 
     //Date and Time shinanagins
-    res.write("It is currentally " + dateTime.dateAndTime());
-    res.write("It is your birthday:");
+    res.write("It is currentally " + dateTime.dateAndTime() + "<br>");
+
+    if (dateTime.isItYourBirthday() == true) {
+      res.write("It is your birthday!");
+    } else {
+      res.write("It is not your birthday.");
+    }
     
     return res.end();
   });
