@@ -1,6 +1,7 @@
 //Sets up the dependances/packages/modules 
 var http = require('http');
-//Experemental module within the file system
+//Experemental module within the file system;
+//Contains the date and time functions that get used later
 var dateTime = require('./myfirstmodule');
 var fileSystem = require('fs')
 
